@@ -73,7 +73,7 @@ setup(name=name,
     install_requires=[
         'trytond-party@git+https://github.com/coopengo/party',
         ],
-    extras_require={cd
+    extras_require={
         'PostgreSQL': pg_require,
         'graphviz': ['pydot'],
         'Levenshtein': ['python-Levenshtein'],
